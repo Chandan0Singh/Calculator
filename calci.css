@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+}
+
+.body{
+    background-color: rgb(19, 17, 17);
+    border-radius: 4vw;
+    height: 50vw;
+    width: 25vw;
+    margin: 11vw 0 0 36vw;
+}
+
+/* scree-case */
+.screen{
+    background-color: #000000;
+    height: 20vw;
+    width: 25vw;
+    border-radius: 4vw;
+    color: #fff;
+    font-size: 3vw;
+}
+
+.equation{
+    height: 5vw;
+    width: 25vw;
+    position: relative;
+    top: 9vw;
+    text-align: end;
+    padding: 0 1vw;
+    font-size: 5vw;
+}
+
+.result{
+    height: 4vw;
+    width: 25vw;
+    position: relative;
+    top: 9vw;
+    text-align: end;
+    padding: 0 1vw;
+    font-size: 4vw;
+}
+
+/* key-case */
+.key-case{
+    height: 29vw;
+    width: 25vw;
+    border-radius: 4vw;
+    margin: 1vw 0 0 0;
+    background-color: #000000;
+}
+
+.key-row{
+    height: 4.7vw;
+    width: 25vw;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0.8vw 0vw 0.8vw 0vw;
+}
+
+.button{
+    height: 4.5vw;
+    width: 4.5vw;
+    background-color: #333333;
+    border-radius: 50%;
+    box-shadow: 0px 0px 8px;
+    font-size: 2vw;
+    color: #fff;
+}
+
+.zero{
+    width: 10.46vw;
+    border-radius: 3vw;
+    text-align: left;
+    padding: 0 0 0 1.5vw;
+
+}
+
+.btn-sign{
+    background-color: #ff9f0a;
+}
+
+.btn-sign-ac-row{
+    background-color: #a5a5a5;
+    color: #121212;
+}
+
+/* home-btn */
+
+.home-button{
+    height: 1vw;
+    width: 24vw;
+    position: relative;
+    top: 0.5vw;
+    margin: 0 0.5vw;
+    display: flex;
+    justify-content: center;
+}
+
+.h-btn{
+    height: 0.2vw;
+    width: 7vw;
+    background-color: #fff;
+    border-radius: 8vw;
+}
